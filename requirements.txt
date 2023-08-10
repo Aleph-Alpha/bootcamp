@@ -1,0 +1,7 @@
+aleph-alpha-client
+langchain
+qdrant-client
+python-dotenv
+scipy
+sklearn
+streamlit
