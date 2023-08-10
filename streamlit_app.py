@@ -1,5 +1,5 @@
 import streamlit as st
-from utils_solution import ChatAgent
+from utils import ChatAgent
 import time
 
 

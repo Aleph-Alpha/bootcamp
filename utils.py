@@ -81,7 +81,7 @@ class ChatAgent:
         
             prompt = f"""### your instruction using the {history_str}, the {self.user_name}: the {message} and the {self.agent_name}:"""
         # Create a completion request
-        completion_request = None # TODO: create a completion request
+        completion_request = CompletionRequest(prompt=Prompt.from_text(prompt), maximum_tokens=64, temperature=0.2, stop_sequences=["\n", self.user_name, self.agent_name])
         # Send the request to the Aleph Alpha API
         completion_response = self.client.complete(completion_request, model="luminous-extended-control")
         
