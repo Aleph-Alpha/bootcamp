@@ -5,3 +5,7 @@ python-dotenv
 scipy
 sklearn
 streamlit
+ipykernel
+plotly
+nbformat
+gradio
