@@ -3,7 +3,7 @@ langchain
 qdrant-client
 python-dotenv
 scipy
-sklearn
+scikit-learn
 streamlit
 ipykernel
 plotly
