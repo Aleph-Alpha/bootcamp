@@ -1,3 +1,5 @@
+⛔️ 
+# DEPRECATED
 # bootcamp
 This is the Aleph Alpha bootcamp. It is a collection of tutorials and examples to help you get started with our API. We will cover the following topics:
 
